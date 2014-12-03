@@ -4,8 +4,8 @@
             "platform": {
                 "arch": "i386", 
                 "build_steps": {
-                    "build": ["make -C ../src"], 
-                    "configure": [], 
+                    "build": ["make -C ../src"],
+                    "configure": [],
                     "post_build": [], 
                     "pre_build": [], 
                     "status": []
@@ -26,8 +26,8 @@
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "COE Pune", 
-                    "name": "Sujatha Agashe", 
+                    "institute": "College Of Engineering, Pune", 
+                    "name": "S.S.Agashe", 
                     "organization": "", 
                     "role": "Lab Developer", 
                     "title": "", 
@@ -36,15 +36,30 @@
                 {
                     "contact": {
                         "alternate_email": "", 
-                        "email": "laxmikantpk@gmail.com", 
+                        "email": "", 
                         "mobile_number": "", 
                         "office_number": ""
                     }, 
                     "department": "", 
-                    "institute": "COE Pune", 
-                    "name": "Laxmikant Kumbhare", 
+                    "institute": "", 
+                    "name": "", 
                     "organization": "", 
-                    "role": "Lab RA", 
+                    "role": "", 
+                    "title": "", 
+                    "web": ""
+                }, 
+                {
+                    "contact": {
+                        "alternate_email": "", 
+                        "email": "", 
+                        "mobile_number": "", 
+                        "office_number": ""
+                    }, 
+                    "department": "", 
+                    "institute": "", 
+                    "name": "", 
+                    "organization": "", 
+                    "role": "", 
                     "title": "", 
                     "web": ""
                 }
@@ -57,19 +72,18 @@
             "name": "Industrial Automation Laboratory", 
             "server-side": true, 
             "status": "Released", 
-            "type": "Simulation"
-        }, 
+            "type": ""
+        },  
         "runtime_requirements": {
             "platform": {
                 "arch": "i386", 
                 "hosting": "dedicated", 
-                "installer": ["sudo apt-get install -y php5 apache2"], 
+                "installer": ["sudo apt-get update","sudo apt-get install -y php5 apache2"], 
                 "lab_actions": {
                     "backup": [
-                        "backup"
                     ], 
                     "clean": [], 
-                    "init": ["cp -r ../build/* /var/www/", "chmod 775 /var/www/build/ -R"], 
+                    "init": ["cp -r ../build/* /var/www/","chmod 775 /var/www/ -R"], 
                     "pause": [], 
                     "publish": [], 
                     "restore": [
